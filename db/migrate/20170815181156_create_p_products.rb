@@ -1,6 +1,6 @@
-class CreateProducts < ActiveRecord::Migration[5.1]
+class CreatePProducts < ActiveRecord::Migration[5.1]
   def change
-    create_table :products do |t|
+    create_table :p_products do |t|
       t.string :title
       t.string :subtitle
       t.string :image_name
