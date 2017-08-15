@@ -30,8 +30,8 @@ gem 'figaro'
 gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
-#device for user authenication
-gem 'device'
+#devise for user authenication
+gem 'devise'
 
 #add twitter bootstrap
 gem 'bootstrap-sass'
