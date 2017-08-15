@@ -23,6 +23,16 @@ gem 'rails_12factor', group: :production
 #stripe for taking payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+#figaro to securely configure App
+gem 'figaro'
+
+#activeadmin for admin system
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+#device for user authenication
+gem 'device'
+
 #add twitter bootstrap
 gem 'bootstrap-sass'
 
