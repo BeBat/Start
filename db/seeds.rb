@@ -5,4 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+niceCat = Product.create(title: "Quality Kitty", 
+	subtitle: "Learn App Code", image_name: "Kitty.JPG",
+	price: "4.99", sku: "kittyOne", download_url: "https://google.com",
+	details: "A really nice cat", description: %{<p> It's a cat</p>})
+
